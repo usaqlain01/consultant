@@ -491,14 +491,19 @@ header .site-branding-logo {
   display: inline-block;
   max-height: 80px;
 }
+@media (min-width: 1200px) {
+  header .site-branding-logo {
+    padding-top: 7px !important;
+  }
+}
 @media (max-width: 1199px) {
   header .site-branding-logo {
-    padding: 18px 0 0 !important;
+    padding: 5px 0 0 !important;
   }
 }
 @media (max-width: 991px) {
   header .site-branding-logo {
-    padding: 15px 0 !important;
+    padding: 0 0 !important;
   }
 }
 @media (max-width: 991px) {
@@ -618,7 +623,7 @@ header.header-v1 {
   margin-top: 1px;
 }
 header.header-v1 .site-branding-logo {
-  padding-top: 25px;
+  padding-top: 0;
 }
 header.header-v1 .gva-search-region .icon {
   color: #000;
