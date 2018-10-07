@@ -1,0 +1,35 @@
+{#* node--view--icon-blocks--block-1.html.twig#}
+{#* node--view--icon-blocks.html.twig#}
+{#* node--292--teaser.html.twig#}
+{#* node--292.html.twig#}
+{#* node--icon-blocks--teaser.html.twig#}
+{#* node--icon-blocks.html.twig#}
+{#* node--teaser.html.twig#}
+{#x node.html.twig#}
+
+{%
+set classes = [
+'node',
+'node--type-' ~ node.bundle|clean_class,
+node.isPromoted() ? 'node--promoted',
+node.isSticky() ? 'node--sticky',
+not node.isPublished() ? 'node--unpublished',
+view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+'clearfix',
+'center',
+]
+%}
+<article{{ attributes.addClass(classes)|without('about') }}>
+    <div{{ content_attributes.addClass('node__content', 'clearfix', 'center') }}>
+        <div onclick="location.href='https://photo.walgreens.com/store/cards';" style="cursor:pointer;">
+            {{ content.field_icon_block_icon }}
+            <div style="font-weight: 550; font-size: 16px; color: #01728E; line-height: 20px; padding-top: 10px;">
+                <div style="width: 50px; margin: auto">
+                    {{ label }}
+                </div>
+            </div>
+            {#{{ content.field_icon_block_url }}#}
+        </div>
+
+    </div>
+</article>
