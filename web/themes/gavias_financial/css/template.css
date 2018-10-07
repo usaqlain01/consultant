@@ -212,9 +212,9 @@ Quick Style Over-rides.
   cursor: default;
 }*/
 
-a {
-  color: #5eb4e7 !important;
-}
+/*a {*/
+  /*color: #5eb4e7 !important;*/
+/*}*/
 a:hover {
   color: #000 !important;
 }
@@ -2816,6 +2816,57 @@ body.path-user summary {
   .padding-bottom-100 {
     padding-bottom: 30px !important;
   }
+}
+.padding-zero {
+  padding: 0 !important;
+}
+.padding-five-zero {
+  padding: 5px 0 !important;
+ }
+.padding-ten-zero {
+  padding: 10px 0 !important;
+}
+.padding-twenty-zero {
+  padding: 20px 0 !important;
+}
+.padding-zero-five {
+  padding: 0 5px !important;
+}
+.padding-zero-ten {
+  padding: 0 10px !important;
+}
+.padding-zero-twenty {
+  padding: 0 20px !important;
+}
+
+.padding-ten-margin-zero {
+  padding: 10px 15px 11px 15px !important;
+  margin: 0 !important;
+}
+
+.margin-zero {
+  margin: 0 !important;
+}
+.margin-five-zero {
+  margin: 5px 0 !important;
+}
+.margin-ten-zero {
+  margin: 10px 0 !important;
+}
+.margin-twenty-zero {
+  margin: 20px 0 !important;
+}
+.margin-zero-five {
+  margin: 0 5px !important;
+}
+.margin-zero-ten {
+  margin: 0 10px !important;
+}
+.margin-zero-twenty {
+  margin: 0 20px !important;
+}
+.margin-20{
+  margin: 20px;
 }
 
 .padding-top-10 {
@@ -10335,3 +10386,35 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   background: #f0ad4e;
 }
 
+.scroll-down-bottom-pic {
+  transition: 3s ease;
+  /*border: 5px solid #5EB4E7;*/
+  border: 5px solid #000000;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+
+.scroll-down-bottom-pic:hover {
+  background-position: left bottom !important;
+}
+
+.center {
+  text-align: center !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.iconblock-view {
+  border-bottom: 1px solid #ccc;
+}
+.node--type-icon-blocks {
+  padding: 20px 0;
+  border-radius: 3px;
+}
+.node--type-icon-blocks:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+.grey-border {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
