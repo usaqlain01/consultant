@@ -1,0 +1,61 @@
+1) Banner Creation
+==================
+Custom text
+<p style="font-size: 28px; line-height: 28px;"><span style="color: #ffffff;">buy 2 get 3rd</span></p>
+<h1 style="font-size: 48px; line-height: 48px;"><span style="color: #ffffff;">FREE</span></h1>
+<p style="font-size: 28px; line-height: 28px;"><span style="color: #ffffff;"><strong>oral care*</strong></span></p>
+
+Botton
+Shop now
+
+small
+
+https://www.walgreens.com/store/c/oral-care/ID=360523-tier2general?ban=dl_dlhp_10072018_PersonalCare_OralCare_B2G3F
+
+TC #154150
+BC #FFFFFF
+BG #FFFFFF
+2x
+HTC #154150
+HBC #ccc
+HBG #ccc
+
+2) Banner Copy
+==================
+
+<h1 style="font-size: 38px;"><span style="color: #fff;">30% off</span></h1>
+<p style="font-size: 18px;"><span style="color: #fff;"><strong>$0 copay</strong> with most insurance</span></p>
+
+Learn more
+
+3) Button Bar Copy
+==================
+O - BG color #01728E
+E
+ BR #01728E
+ HBG #002642
+ HBR #002642
+
+4) View Copy
+==================
+
+
+5) View Content Cr
+==================
+
+
+6) Text Line Copy
+==================
+
+
+7) Top Banner
+==================
+
+https://www.walgreens.com/topic/promotion/every-one-counts.jsp?ban=EVERYONECOUNTSFY19_hp_cause_oct2018
+
+https://www.walgreens.com/pharmacy/care-connect.jsp?#%Asthma/COPD%
+
+https://www.walgreens.com/topic/promotion/fedex.jsp?ban=Hometertiary_090218
+
+8) Bottom Banner
+==================
