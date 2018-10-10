@@ -23,7 +23,7 @@ HBG #ccc
 2) Banner Copy
 ==================
 
-<h1 style="font-size: 38px;"><span style="color: #fff;">30% off</span></h1>
+<h1 style="font-size: 38px;"><span style="color: #fff;">Get your flu shot</span></h1>
 <p style="font-size: 18px;"><span style="color: #fff;"><strong>$0 copay</strong> with most insurance</span></p>
 
 Learn more
