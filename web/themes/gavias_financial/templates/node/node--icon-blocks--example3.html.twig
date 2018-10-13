@@ -1,0 +1,25 @@
+{%
+    set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    'clearfix',
+    'center',
+]
+%}
+<article{{ attributes.addClass(classes)|without('about') }}>
+    <div{{ content_attributes.addClass('node__content', 'clearfix', 'center') }}>
+        <div class="example3-border" style="border: 2px solid red; border-radius: 50%" onclick="location.href='https://photo.walgreens.com/store/cards';" style="cursor:pointer;">
+            <div style="font-weight: 550; font-size: 14px; color: red; line-height: 20px; padding-top: 10px;">
+                <div style="width: 50px; margin: auto">
+                    {{ label }}
+                </div>
+            </div>
+            {{ content.field_icon_block_icon }}
+        </div>
+
+    </div>
+</article>

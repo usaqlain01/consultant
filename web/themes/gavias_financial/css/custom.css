@@ -1,0 +1,94 @@
+.contact-v3 .contact-request-call-back .col-1, .contact-v3 .contact-request-call-back .col-2, .contact-v3 .contact-request-call-back .col-3, .contact-v3 .contact-request-call-back .col-4 {
+    width: 100% !important;
+}
+.contact-v3 .contact-request-call-back select, .contact-v3 .contact-request-call-back input[type*='text'], .contact-v3 .contact-request-call-back input[type*='phone'], .contact-v3 .contact-request-call-back input[type*='email'], .contact-v3 .contact-request-call-back #edit-name, .contact-v3 .contact-request-call-back div[id*="edit-name"] {
+    background: #444444 !important;
+}
+.contact-request-call-back div[id*="edit-name"] {
+    padding-left: 15px;
+}
+.contact-v3 input#edit-submit--3 {
+    width: 100%;
+}
+
+@media (min-width: 991px) {
+    .contact-v3 .contact-message-form .form-item {
+     margin-bottom: 15px !important;
+    }
+    .contact-v3 .block {
+        margin-bottom: 0 !important;
+    }
+    .contact-v3 .contact-request-call-back input[type*='text'], .contact-v3 .contact-request-call-back select, .contact-v3 .contact-request-call-back #edit-name, .contact-v3 .contact-request-call-back .form-item-name {
+        height: 35px !important;
+    }
+    .contact-v3 .contact-request-call-back div[id*="edit-name"] {
+        height: 35px !important;
+        line-height: 35px !important;
+    }
+    /*.contact-v3 input#edit-submit--3 {*/
+        /*width: 100%;*/
+    /*}*/
+}
+@media (min-width: 1199px) {
+    .contact-v3 {
+        padding-top: 5px;
+    }
+    .contact-v3 .contact-message-form .form-item {
+        margin-bottom: 15px !important;
+    }
+    .contact-v3 .block {
+        margin-bottom: 0 !important;
+    }
+    .contact-v3 .contact-request-call-back input[type*='text'], .contact-v3 .contact-request-call-back select, .contact-v3 .contact-request-call-back #edit-name, .contact-v3 .contact-request-call-back .form-item-name {
+        height: 50px !important;
+    }
+    .contact-v3 .contact-request-call-back div[id*="edit-name"] {
+        height: 50px !important;
+        line-height: 50px !important;
+    }
+    /*.contact-v3 input#edit-submit--3 {*/
+        /*width: 100%;*/
+    /*}*/
+}
+@media (min-width: 1399px) {
+    .contact-v3 {
+        padding-top: 10px;
+    }
+    .contact-v3 .contact-message-form .form-item {
+        margin-bottom: 20px !important;
+    }
+    .contact-v3 .block {
+        margin-bottom: 0 !important;
+    }
+    .contact-v3 .contact-request-call-back input[type*='text'], .contact-v3 .contact-request-call-back select, .contact-v3 .contact-request-call-back #edit-name, .contact-v3 .contact-request-call-back .form-item-name {
+        height: 60px !important;
+    }
+    .contact-v3 .contact-request-call-back div[id*="edit-name"] {
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+    /*.contact-v3 input#edit-submit--3 {*/
+        /*width: 100%;*/
+    /*}*/
+}
+@media (min-width: 1599px) {
+    .contact-v3 {
+        padding-top: 20px;
+    }
+    .contact-v3 .contact-message-form .form-item {
+        margin-bottom: 25px !important;
+    }
+    .contact-v3 .block {
+        margin-bottom: 0 !important;
+    }
+    .contact-v3 .contact-request-call-back input[type*='text'], .contact-v3 .contact-request-call-back select, .contact-v3 .contact-request-call-back #edit-name, .contact-v3 .contact-request-call-back .form-item-name {
+        height: 60px !important;
+    }
+    .contact-v3 .contact-request-call-back div[id*="edit-name"] {
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+    /*.contact-v3 input#edit-submit--3 {*/
+        /*width: 100%;*/
+    /*}*/
+}

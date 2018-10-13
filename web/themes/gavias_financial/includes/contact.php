@@ -86,7 +86,7 @@ function gavias_financial_form_contact_message_request_call_back_form_alter(&$fo
   $form['actions']['#suffix'] = '</div>';
   $form['actions']['submit']['#attributes']['class'][] = 'btn';
   $form['actions']['submit']['#attributes']['class'][] = 'btn-theme-submit';
- 
+  $form['actions']['submit']['#value'] = t('Request Call-Back');
 
   //$form['html_copy_after']['#weight'] = 98;
   //$form['html_copy_after']['#suffix'] = '</div>';
@@ -94,4 +94,5 @@ function gavias_financial_form_contact_message_request_call_back_form_alter(&$fo
   $form['html_after']['#weight'] = 99;
   $form['html_after']['#prefix'] = '';
   $form['html_after']['#suffix'] = '</div></div>';
+  unset($form['actions']['preview']);
 }
