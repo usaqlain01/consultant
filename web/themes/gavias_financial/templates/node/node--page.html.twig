@@ -39,17 +39,27 @@
       <div class="widget gsc-heading align-left style-1 small text-dark ">
         <h2 class="title"><span>{{ label }}</span></h2>            
         <div class="line"><span class="one"></span><span class="second"></span><span class="three"></span></div>
+        <meta name="description" content="{{ content.field_header }}">
+        <meta name="keywords" content="{{ content.field_seo }}">
+        {#<meta name="image" content="{{ content.field_image }}">#}
+        <meta name="author" content="Usman Saqlain">
+        <div class="node__meta">
+            {{ content.field_image }}
+        </div>
       </div>
     </div>
   </header>
   
-  <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
-    {{ content }}
-  </div>
+
 
   {% if gva_content_shortcode %}
     <div class="gavias-content-blockbuilder">{{ gva_content_shortcode|raw }}</div>
+  {% else %}
+    <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
+        {{ content }}
+    </div>
   {% endif %}
+
 
 </article>
 

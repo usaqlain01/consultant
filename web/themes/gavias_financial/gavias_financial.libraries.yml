@@ -44,6 +44,7 @@ gavias_financial.skin.default:
     theme: 
       css/bootstrap.css: {}
       css/template.css: {}
+      css/custom.css: {}
 
 gavias_financial.skin.blue:
   version: VERSION
