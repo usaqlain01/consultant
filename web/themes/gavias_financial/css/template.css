@@ -2761,6 +2761,14 @@ body.path-user summary {
   margin-bottom: 100px !important;
 }
 
+.padding-3 {
+  padding: 3px !important;
+}
+
+.padding-5 {
+  padding: 5px !important;
+}
+
 .padding-10 {
   padding: 10px !important;
 }
