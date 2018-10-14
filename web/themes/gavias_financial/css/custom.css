@@ -10,7 +10,26 @@
 .contact-v3 input#edit-submit--3 {
     width: 100%;
 }
-
+.code-sample-button a {
+    width: 100%;
+    text-align: center;
+}
+.seo-menu a {
+    padding-top: 2px !important;
+    padding-bottom: 0 !important;
+    color: #000000 !important;
+}
+.topbar {
+    padding-bottom: 1px !important;
+}
+@media (max-width: 991px) {
+    .seo-menu-row {
+        display: none !important;
+    }
+    .topbar {
+        padding-bottom: 10px !important;
+    }
+}
 @media (min-width: 991px) {
     .contact-v3 .contact-message-form .form-item {
      margin-bottom: 15px !important;
@@ -25,11 +44,14 @@
         height: 35px !important;
         line-height: 35px !important;
     }
-    /*.contact-v3 input#edit-submit--3 {*/
-        /*width: 100%;*/
-    /*}*/
+    .seo-menu a {
+        font-size: 8px !important;
+    }
+    .gva_menu_main li a {
+        font-size: 12px !important;
+    }
 }
-@media (min-width: 1199px) {
+@media (min-width: 1200px) {
     .contact-v3 {
         padding-top: 5px;
     }
@@ -46,9 +68,12 @@
         height: 50px !important;
         line-height: 50px !important;
     }
-    /*.contact-v3 input#edit-submit--3 {*/
-        /*width: 100%;*/
-    /*}*/
+    .seo-menu a {
+        font-size: 10px !important;
+    }
+    .gva_menu_main li a {
+        font-size: 13px !important;
+    }
 }
 @media (min-width: 1399px) {
     .contact-v3 {

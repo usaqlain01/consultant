@@ -41,7 +41,7 @@ function gavias_financial_form_contact_message_feedback_form_alter(&$form, \Drup
   $form['actions']['#suffix'] = '</div></div>';
   $form['actions']['submit']['#attributes']['class'][] = 'btn';
   $form['actions']['submit']['#attributes']['class'][] = 'btn-theme-submit';
-  
+  unset($form['actions']['preview']);
 }
 
 function gavias_financial_form_contact_message_request_call_back_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
